@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        a {
+            color: rgb(168, 70, 70);
+            text-decoration: none;
+        }
+
+        li>a {
+            color: wheat;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    <table style="width: 100%;">
+        <tr style="background-color: rgb(216, 183, 183);">
+            <td colspan="2" height: 75px; style="padding: 20px;">
+                <span style="font-size: 40px; color: indianred; font-weight: bold; margin-right: 50px;">BRIGHT
+                    BLOG</span>
+                <!--&nbsp: bir boşluk bırakır-->
+                <span style="font-size: 20px;">
+                    <a href="/">Home</a>
+                    <a href="/">Blogs</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 15%; height: 500px; background-color: rgb(151, 92, 111);">
+                <ul style="list-style-type: none; padding: 10px;">
+                    <li><a href="/">Javascript</a></li>
+                    <li><a href="/">Dotnet</a></li>
+                    <li><a href="/">Asp.Net Core</a></li>
+                    <li><a href="/">React</a></li>
+                    <li><a href="/">Hayata Dair</a></li>
+                </ul>
+            </td>
+            <td style="background-color: antiquewhite; color: black; text-align: center;">
+                <h1>Contact</h1>
+                <form action="">
+                    <!-- action: bu formun içindeki gönderilecek bilgiler nereye gönderilecek bilgisini tutan attribute -->
+                    <table>
+                        <tr>
+                            <td>Ad Soyad:</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Cinsiyet:</td>
+                            <td>
+                                <input type="radio" name="cinsiyet" id="">Kadın
+                                <input type="radio" name="cinsiyet" id="">Erkek
+                                <input type="radio" name="cinsiyet" id="">Diğer
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Eğitim Seviyesi:</td>
+                            <td>
+                                <select name="educationLevel" id="">
+                                    <option value="">İlköğretim</option>
+                                    <option value="">Ortaöğretim</option>
+                                    <option value="">Ön Lisans</option>
+                                    <option value="">Lisan</option>
+                                    <option value="">Lisansüstü</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Örnekler:</td>
+                            <td>
+                                Email: <input type="email" name="" id="">
+                                Şifre: <input type="password" name="" id="">
+                                <br><br> Doğum tarihi: <input type="date" name="" id=""> <input type="datetime" name="" id=""> <input type="datetime-local" name="" id="">
+                                <br><br>Fotoğraf yükle:<input type="file" name="" id="">
+                                <br><h4><input type="checkbox" name="" id="1"><label for="1">Kullanıcı sözleşmesini okudum, onayladım</label></h4>
+                                <!--label: text'e tıkladığımızda chechbox'ın işaretlenmesini sağlıyor-->
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
