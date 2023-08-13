@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            background-color: black;
+            width: 850px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            display: inline-block;
+            /*margin-top: 20px;
+            margin-right: 25px;
+            margin-bottom: 15px;
+            margin-left: 30px;*/
+            margin: 20px 25px 15px 30px;
+            /* toptan başlayıp saat yönünde */
+
+            /* margin: 20px 30px 20px 30px; */
+            margin: 20px 30px;
+            /* top-bottom ve right-left değerleri */
+        }
+
+        .box1 {
+            background-color: aqua;
+            /* padding: 5px 10px 15px 20px; */
+            padding: 20px 10px 30px;
+        }
+
+        .box2 {
+            background-color: red;
+        }
+
+        .box3 {
+            background-color: blue;
+        }
+
+        .box4 {
+            background-color: orange;
+        }
+
+        .box5 {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">Kutu1</div>
+        <div class="box box2">Kutu2</div>
+        <div class="box box3">Kutu3</div>
+        <div class="box box4">Kutu4</div>
+        <div class="box box5">Kutu5</div>
+    </div>
+</body>
+
+</html>
