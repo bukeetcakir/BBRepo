@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="01-CSS-Intro.css">
+    <link rel="stylesheet" href="01-CSS-Intro2.css">
+    <!-- CSS: Cascading Style Sheet-->
+    <!-- Css kodları 3 farklı lokasyonda yazılabilir
+    1- Satır içi (inline)
+    Bir HTML açılış etiketinin içinde style attribute'u yardımıyla yazılan kodlar
+    2- Style etiketleri ile dahili(internal):
+    Hangi dosyada etkili olmasını istiyorsak, o dosyanın içinde style etiketleri içine yazılan kodlar
+    3- Harici dosya içinde (external):
+    Ayrı bir CSS uzantılı dosya içine yazılan kodlar
+
+    Bu doğrultuda CSS kodlarının öncelik sırası şu şekildedir:
+    1- Inline CSS kodları
+    2- <style></style> içine yazılan Internak CSS kodları
+    3- External CSS kodları
+    4- Tarayıcı varsayılanları
+
+    NOT : Bir HTML dökümanına <style> içine yazılan ya da link ile bağladığımız CSS'ler kendi arasında yazılış sırasına göre gerçekleşecektir.-->
+    <style>
+        p{
+            color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <p style="background-color: black;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At eveniet laboriosam ratione in sint vitae, fugiat consequatur dolorem aliquam reprehenderit totam error qui ipsa nam quasi odio eos quam, ut fugit quos ea quaerat tempore excepturi officia! Eius vel assumenda pariatur iusto, harum error rerum et nobis debitis ex ab tempore quaerat recusandae nisi deleniti! 
+    </p>
+</body>
+</html>
