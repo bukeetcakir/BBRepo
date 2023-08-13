@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 600px;
+        }
+
+        #pageTitle {
+            background-color: red;
+            padding: 25px;
+        }
+
+        #pageSubTitle {
+            background-color: orange;
+        }
+
+        h1 {
+            /* border-width: 5px;
+            border-style: dotted;
+            border-color: gold; */
+            border: 5px dotted gold;
+            /*sıralamanın önemi yok*/
+        }
+
+        .box {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .box1 {
+            background-color: aqua;
+        }
+        .box-container{
+            width: 750px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        Herhangi bir elementin kapladığı alan;
+        - Genişlik için: left border + left padding + content + right padding + right border
+        -> width: 100, border: 1px, padding: 10px = kapladığı alan: 122px
+        - Yükseklik için: top border + top padding + content height +  bottom padding + bottom border
+        -> height: 50px border: 1px padding 10px = kapladığı alan:72px
+    -->
+    <main>
+        <section>
+            <h1 id="pageTitle">Bright Blog'a Hoş Geldiniz</h1>
+        </section>
+        <section>
+            <h1 id="pageSubTitle">Özgür yazılar</h1>
+        </section>
+        <div class="box-container">
+            <div class="box box1">Kutu1</div>
+            <div class="box box2">Kutu2</div>
+            <div class="box box1">Kutu3</div>
+            <div class="box box2">Kutu4</div>
+            <div class="box box1">Kutu5</div>
+            <div class="box box6" style="width: 80px;">Kutu6</div>
+        </div>
+
+    </main>
+</body>
+
+</html>
