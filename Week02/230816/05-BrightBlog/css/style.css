@@ -40,7 +40,8 @@ a {
 #main-nav-items {
     list-style-type: none;
 }
-.menu-item{
+
+.menu-item {
     display: inline-block;
     width: 130px;
     height: 35px;
@@ -49,6 +50,7 @@ a {
 
 .main-nav-item {
     background-color: white;
+    border-radius: 20px;
 }
 
 .main-nav-item a {
@@ -63,11 +65,13 @@ a {
 .main-nav-item a:hover {
     color: white;
     background-color: rgb(204, 0, 204);
-    transition: all 1s;
+    border-radius: 20px;
+    transition: all 800ms;
 }
 
 #login-button {
     background-color: purple;
+    border-radius: 20px;
 }
 
 #login-button a {
@@ -83,14 +87,26 @@ a {
 #login-button a:hover {
     color: purple;
     background-color: white;
+    border-radius: 20px;
     transition: all 800ms;
 }
 
 #intro {
-    background-color: rgb(247, 231, 244);
-    height: 75vh;
+    /* background-color: rgb(247, 231, 244); */
+    background: url("/images/bg_home.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-clip: content-box; */
+    height: 90vh;
     padding: 25px;
-    padding-top: 250px;
+    padding-top: 150px;
     text-align: center;
     color: darkmagenta;
+}
+#intro h1{
+    background-color: rgba(255, 255, 255, 0.651);
+    display: inline;
+    padding: 10px 25px;
+    border-radius: 40px;
 }
