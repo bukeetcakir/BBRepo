@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            height: 60px;
+            width: 60px;
+            padding: 5px;
+            color: yellow;
+            /* display: inline;
+            display: block; */
+            display: inline-block;
+        }
+        #first{
+            background-color: tomato;
+        }
+        #second{
+            background-color: orange;
+            /* display: none; */ 
+            /* visibility: hidden; */ 
+        }
+        #third{
+            background-color: green;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box" id="first">First</div>
+        <div class="box" id="second">Second</div>
+        <div class="box" id="third">Third</div>
+    </div>
+    <div id="container">
+        <div class="box" id="p"></div>
+        <div class="box" id="p"></div>
+        <div class="box" id="p"></div>
+    </div>
+</body>
+
+</html>
