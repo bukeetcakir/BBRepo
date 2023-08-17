@@ -6,16 +6,40 @@
     <title>BrightBlog</title>
     <style>
         .container{
+            height: 1000px;
+            border: 1px solid black;
             display: flex;
             flex-direction: column;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: wrap; */
+            /* flex-flow: column wrap; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            justify-content: center
+            /* align-items: center; */
+
+            /*
+                flex-direction: row ise;
+                    -justify-content -> yatay hizalama
+                    -align-items -> dikey hizalama
+                flex-direction: column ise;
+                    -justify-content -> dikey hizalama
+                    -align-items -> yatay hizalama
+            */
         }
         .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: orangered;
             color: white;
             padding: 30px;
             margin: 10px;
             font-size: 25px;
-
+            height: 75px;
+            width: 75px;
         }
     </style>
 </head>
@@ -25,7 +49,7 @@
         <div class="item">item2</div>
         <div class="item">item3</div>
         <div class="item">item4</div>
-        <div class="item">item4</div>
+        <div class="item">item5</div>
         <div class="item">item6</div>
     </div>
 </body>
