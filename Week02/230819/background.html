@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <style>
+        body {
+            /* background-image: url("https://picsum.photos/id/237/200/300"); */
+            /* background-repeat: no-repeat; */
+            /* background-repeat: repeat-x; */
+            /* background-repeat: repeat-y; */
+
+            /* background-image: url("https://picsum.photos/id/777/300/650");
+        background-repeat: no-repeat;
+        background-position: top right;
+        margin-right: 300px;
+        background-attachment: fixed; */
+        }
+
+        #first-paragraph {
+            background-image: url("https://picsum.photos/id/777/200/300");
+            background-repeat: no-repeat;
+            /* background-size: contain; */
+            background-size: cover;
+        }
+
+        #second-paragraph {
+            width: 400px;
+            height: 300px;
+            overflow: hidden;
+            border: 10px solid purple;
+            padding: 20px;
+            background-image: url("https://picsum.photos/id/777/400/300");
+            background-repeat: no-repeat;
+            /* background-origin: padding-box; */
+            /* background-origin: border-box; */
+            background-origin: content-box;
+        }
+
+        div {
+            width: 200px;
+            height: 50px;
+            background-color: lightcoral;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* #box1{
+            opacity: 1;
+        }
+        #box2{
+            opacity: 0.8;
+        }
+        #box3{
+            opacity: 0.6;
+        }
+        #box4{
+            opacity: 0.4;
+        }
+        #box5{
+            opacity: 0.2;
+        }
+        #box6{
+            opacity: 0;
+        } */
+        #box1 {
+            background-color: rgb(240, 128, 128, 1);
+        }
+
+        #box2 {
+            background-color: rgb(240, 128, 128, 0.8);
+        }
+
+        #box3 {
+            background-color: rgb(240, 128, 128, 0.6);
+        }
+
+        #box4 {
+            background-color: rgb(240, 128, 128, 0.4);
+        }
+
+        #box5 {
+            background-color: rgb(240, 128, 128, 0.2);
+
+        }
+
+        #box6 {
+            background-color: rgb(240, 128, 128, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Background</h1>
+    <div id="box1">opacity 1</div>
+    <div id="box2">opacity 2</div>
+    <div id="box3">opacity 3</div>
+    <div id="box4">opacity 4</div>
+    <div id="box5">opacity 5</div>
+    <div id="box6">opacity 6</div>
+    <p id="first-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempore assumenda neque?
+        Repudiandae ipsa quas blanditiis natus, vitae voluptatum placeat quidem animi sint, nostrum hic. Quam quaerat
+        dolorum neque molestiae eius. Veniam aperiam, soluta neque sint ullam recusandae quae sed a beatae natus
+        pariatur hic vero quod qui nam reprehenderit consectetur rerum illo atque officia perferendis blanditiis esse
+        velit? Modi officia sunt, blanditiis neque maiores quia aut, harum explicabo hic animi quaerat culpa alias! Nam
+        porro corporis, alias vitae dolorum enim facere, aliquam explicabo laudantium neque nihil odit totam! Quis
+        itaque ipsam quam perspiciatis! Inventore nesciunt fuga tenetur molestias id!</p>
+    <div>
+        <p id="second-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet quo nihil, deserunt
+            officia quod quos minus maiores rerum? Harum qui amet necessitatibus. Beatae, doloribus molestiae error
+            labore soluta, consequatur magnam magni dolor culpa corrupti quia. Perspiciatis officia, beatae a alias rem
+            impedit voluptas enim deserunt, veniam architecto libero doloribus.</p>
+    </div>
+</body>
+
+</html>

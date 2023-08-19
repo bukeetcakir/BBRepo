@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+</head>
+<style>
+    div{
+        background-color: lightcoral;
+        padding: 5px;
+        width: 150px;
+        font-size: 20px;
+        margin: 5px;
+    }
+    div:hover{
+        background-color: rgb(163, 62, 62);
+        color: wheat;
+        width: 300px;
+        display: flex;
+        justify-content: right;
+        /* transition-property: all;
+        transition-duration: 1s; */
+        /* transition-timing-function: ease-in-out; */
+        transition: all 1s .3s;
+    }
+    ul{
+        list-style-type: none;
+    }
+    ul li{
+        display: inline-block;
+        width: 80px;
+        cursor: pointer;
+        margin: 5px;
+    }
+    ul li:hover{
+        color: rgb(163, 62, 62);
+        border-bottom: 1px solid rgb(163, 62, 62) ;
+        transition: 1s linear ; 
+    }
+</style>
+<body>
+    <div>
+        Transition
+    </div>
+    <ul class="menu">
+        <li>Anasayfa</li>
+        <li>Ürünler</li>
+        <li>Kategoriler</li>
+        <li>İletişim</li>
+        <li>Giriş Yap</li>
+    </ul>
+</body>
+</html>

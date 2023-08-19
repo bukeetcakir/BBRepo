@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .outer-box{
+            width: 250px;
+            height: 250px;
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* position: static; */
+            position: relative;
+            /* position: fixed; */
+            /* position: absolute; */
+
+        }
+        .inner-box{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: red;
+            color: white;
+            padding: 6px;
+        }
+        .campaign{
+            position: sticky;
+            top: 5px;
+        }
+        .container{
+            position: relative;
+        }
+        .box1, .box2{
+            border: 1px solid black;
+            height: 150px;
+            width: 150px;
+        }
+        .box1{
+            background-color: red;
+            color: white;
+            position: absolute;
+            z-index: 2;
+        }
+        .box2{
+            background-color: green;
+            color: white;
+            position: absolute;
+            left: 75px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        static: olağan akışta kalır, top, left vb. özelliklerden etkilenmez
+        relative: olağan akışta kalır, top, left vb. özelliklerden etkilenir
+        fixed: olağan akışta kalmaz, top, left vb özelliklerden etkilenir
+        Sayfa scroll edildiğinde konumu sabit olarak verdiğimiz noktada durur
+        absolute: olağan akışta kalmaz, top, left vb. özelliklerden etkilenir
+        sticky: duruma göre olağan akışta kalır ya da kalmaz, top ,left vb. etkilenir
+        verilen değerlere gelene kadar static davranış sergiler o değerlere gelindiği 
+        an fixed davranış sergiler 
+    -->
+    <h1>Position</h1>
+    <div class="outer-box">
+        Absolute
+        <div class="inner-box">
+            X
+        </div>
+    </div>
+    <h1>Position</h1>
+    <h1 class="campaign">Kampanya</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <div class="container">
+        <div class="box1">
+            Box1
+        </div>
+        <div class="box2">
+            Box2
+        </div>
+    </div>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+    <h1>Position</h1>
+</body>
+</html>

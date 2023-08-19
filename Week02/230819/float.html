@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        .container {
+            background-color: gray;
+            /* overflow: auto; */
+        }
+
+        .box {
+            width: 75px;
+            height: 75px;
+            margin: 5px;
+            float: left;
+
+        }
+        .boxgeneral{
+            width: 75px;
+            height: 75px;
+            margin: 5px;
+            background-color: coral;
+            float: right;
+        }
+        .boxgeneral2{
+            width: 75px;
+            height: 75px;
+            margin: 5px;
+            background-color: coral;
+        }
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        /* .container::after {
+            content: "";
+            clear: both;
+            display: table;
+        } */
+        
+        .clear{
+            clear: both;
+        }
+        .clear2{
+            clear: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Float</h1>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        <!-- <div class="clear"></div> -->
+        <div class="boxgeneral"></div>
+        <div class="boxgeneral"></div>
+        <div class="boxgeneral"></div>
+        <div class="clear2"></div>
+        <div class="boxgeneral2"></div>
+        <div class="boxgeneral2"></div>
+        <div class="boxgeneral2"></div>
+        <div class="clear"></div>
+
+    </div>
+</body>
+
+</html>
