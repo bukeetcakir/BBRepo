@@ -1,0 +1,201 @@
+/*Bu saturla google fontlardan geçmiş olduğumuz yazı tipi ve kalınlıklarını bu dosyaya import etmiş olduk yani artık bu yazı tiplerini projemizde kullanabiliriz*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;600&display=swap');
+
+.root {
+    --primary: #313866;
+    --secondary: #504099;
+    --success: #974EC3;
+    --danger: #FE7BE5;
+    --dark: #000000;
+    --light: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Dosis, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#main_header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 174, 236);
+    padding: 10px 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#brand {
+    color: purple;
+    background-color: rgb(204, 0, 204);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+#brand:hover {
+    color: white;
+    transition: all 1s;
+}
+
+#main-nav {
+    width: calc(100% - 190px);
+}
+
+#main-nav-items {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.menu-item {
+    width: 130px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: 2px; */
+}
+
+.main-nav-item {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.main-nav-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 90%; */
+    color: purple;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.main-nav-item a:hover {
+    color: white;
+    background-color: rgb(204, 0, 204);
+    border-radius: 20px;
+    transition: all 800ms;
+    border: 3px solid white;
+}
+
+#login-button {
+    background-color: purple;
+    border-radius: 20px;
+}
+
+#login-button a {
+    display: flex;
+    width: 130px;
+    /* height: 90%; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#login-button a:hover {
+    color: purple;
+    background-color: white;
+    border-radius: 20px;
+    transition: all 800ms;
+    border: 3px solid purple;
+}
+
+#intro {
+    /* background-color: rgb(247, 231, 244); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/07-BrightBlog/images/bg_home.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-clip: content-box; */
+    height: 90vh;
+    padding: 25px;
+    color: darkmagenta;
+}
+
+#intro h1 {
+    background-color: rgba(255, 255, 255, 0.65);
+    font-size: 40px;
+    display: inline;
+    padding: 10px 25px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px;
+}
+
+#content {
+    display: flex;
+}
+
+.content-item {
+    margin: 15px;
+    padding: 10px;
+}
+
+.content-item h2 {
+    color: purple;
+    /* margin-bottom: 10px; */
+    /* padding-bottom: 15px; */
+}
+
+.content-item div {
+    height: 10px;
+}
+
+#article {
+    width: 80%;
+    height: 500px;
+    margin: 10px auto;
+}
+
+#article-title {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--secondary);
+}
+
+.articles {
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+#first-img {
+    width: 100%;
+}
+
+.article-part {
+    padding: 20px;
+}

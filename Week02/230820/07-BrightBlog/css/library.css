@@ -1,0 +1,114 @@
+.root {
+    --primary: #313866;
+    --secondary: #504099;
+    --success: #974EC3;
+    --danger: #FE7BE5;
+    --dark: #000000;
+    --light: #FFFFFF;
+}
+/*Margin*/
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 4px;
+}
+
+.m-2 {
+    margin: 6px;
+}
+
+.m-3 {
+    margin: 8px;
+}
+
+.m-4 {
+    margin: 10px;
+}
+
+.m-5 {
+    margin: 14px;
+}
+
+/*Margin-Right*/
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-1 {
+    margin-right: 4px;
+}
+
+.mr-2 {
+    margin-right: 6px;
+}
+
+.mr-3 {
+    margin-right: 8px;
+}
+
+.mr-4 {
+    margin-right: 10px;
+}
+
+.mr-5 {
+    margin-right: 14px;
+}
+
+/*Margin-Top*/
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 4px;
+}
+
+.mt-2 {
+    margin-top: 6px;
+}
+
+.mt-3 {
+    margin-top: 8px;
+}
+
+.mt-4 {
+    margin-top: 10px;
+}
+
+.mt-5 {
+    margin-top: 14px;
+}
+
+.btn {
+    padding: 8px 14px;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-success:hover {
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+    transition: all .5s;
+}
+.btn-primary {
+    background-color: plum;
+    color: purple;
+}
+
+
+.btn-primary:hover {
+    background-color: purple;
+    color: plum;
+    transition: all .5s;
+}
