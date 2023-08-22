@@ -1,4 +1,4 @@
-/*Bu saturla google fontlardan geçmiş olduğumuz yazı tipi ve kalınlıklarını bu dosyaya import etmiş olduk yani artık bu yazı tiplerini projemizde kullanabiliriz*/
+/*Bu satırla google fontlardan geçmiş olduğumuz yazı tipi ve kalınlıklarını bu dosyaya import etmiş olduk yani artık bu yazı tiplerini projemizde kullanabiliriz*/
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;600&display=swap');
 
 .root {

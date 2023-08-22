@@ -1,0 +1,379 @@
+:root {
+    --primary: #3a4170;
+    --darkerprimary: #252a53;
+    --secondary: #d8b3db;
+    --success: #974EC3;
+    --danger: #FE7BE5;
+    --warning: #5a247c;
+    --dark: #000000;
+    --light: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+/*Margin*/
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 4px;
+}
+
+.m-2 {
+    margin: 6px;
+}
+
+.m-3 {
+    margin: 8px;
+}
+
+.m-4 {
+    margin: 10px;
+}
+
+.m-5 {
+    margin: 14px;
+}
+
+/*Margin-Right*/
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-1 {
+    margin-right: 4px;
+}
+
+.mr-2 {
+    margin-right: 6px;
+}
+
+.mr-3 {
+    margin-right: 8px;
+}
+
+.mr-4 {
+    margin-right: 10px;
+}
+
+.mr-5 {
+    margin-right: 14px;
+}
+
+/*Margin-Top*/
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 4px;
+}
+
+.mt-2 {
+    margin-top: 6px;
+}
+
+.mt-3 {
+    margin-top: 8px;
+}
+
+.mt-4 {
+    margin-top: 10px;
+}
+
+.mt-5 {
+    margin-top: 14px;
+}
+
+/*Margin-Bottom*/
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 4px;
+}
+
+.mb-2 {
+    margin-bottom: 6px;
+}
+
+.mb-3 {
+    margin-bottom: 8px;
+}
+
+.mb-4 {
+    margin-bottom: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 14px;
+}
+
+/*Margin-Left*/
+.ml-0 {
+    margin-left: 0;
+}
+
+.ml-1 {
+    margin-left: 4px;
+}
+
+.ml-2 {
+    margin-left: 6px;
+}
+
+.ml-3 {
+    margin-left: 8px;
+}
+
+.ml-4 {
+    margin-left: 10px;
+}
+
+.ml-5 {
+    margin-left: 14px;
+}
+
+/*Padding*/
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 4px;
+}
+
+.p-2 {
+    padding: 6px;
+}
+
+.p-3 {
+    padding: 8px;
+}
+
+.p-4 {
+    padding: 10px;
+}
+
+.p-5 {
+    padding: 14px;
+}
+
+/*Padding-Left*/
+.pl-0 {
+    padding-left: 0;
+}
+
+.pl-1 {
+    padding-left: 4px;
+}
+
+.pl-2 {
+    padding-left: 6px;
+}
+
+.pl-3 {
+    padding-left: 8px;
+}
+
+.pl-4 {
+    padding-left: 10px;
+}
+
+.pl-5 {
+    padding-left: 14px;
+}
+
+/*Padding-Right*/
+.pr-0 {
+    padding-right: 0;
+}
+
+.pr-1 {
+    padding-right: 4px;
+}
+
+.pr-2 {
+    padding-right: 6px;
+}
+
+.pr-3 {
+    padding-right: 8px;
+}
+
+.pr-4 {
+    padding-right: 10px;
+}
+
+.pr-5 {
+    padding-right: 14px;
+}
+
+/*Padding-top*/
+.pt-0 {
+    padding-top: 0;
+}
+
+.pt-1 {
+    padding-top: 4px;
+}
+
+.pt-2 {
+    padding-top: 6px;
+}
+
+.pt-3 {
+    padding-top: 8px;
+}
+
+.pt-4 {
+    padding-top: 10px;
+}
+
+.pt-5 {
+    padding-top: 14px;
+}
+
+/*Padding-bottom*/
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.pb-1 {
+    padding-bottom: 4px;
+}
+
+.pb-2 {
+    padding-bottom: 6px;
+}
+
+.pb-3 {
+    padding-bottom: 8px;
+}
+
+.pb-4 {
+    padding-bottom: 10px;
+}
+
+.pb-5 {
+    padding-bottom: 14px;
+}
+
+
+/*Text-color*/
+.txt-primary {
+    color: var(--primary);
+}
+.txt-danger{
+    color: var(--danger);
+}
+.txt-dark{
+    color: var(--dark);
+}
+.txt-light{
+    color: var(--light);
+}
+.txt-secondary{
+    color: var(--secondary);
+}
+.txt-success{
+    color: var(--success);
+}
+.txt-warning{
+    color: var(--warning);
+}
+
+/*bg-color*/
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-danger {
+    background-color: var(--danger);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+
+.bg-success {
+    background-color: var(--success);
+}
+
+.bg-warning {
+    background-color: var(--warning);
+}
+
+.btn {
+    padding: 8px 14px;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-success:hover {
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+    transition: all .5s;
+}
+.btn-primary {
+    background-color: plum;
+    color: purple;
+}
+
+
+.btn-primary:hover {
+    background-color: purple;
+    color: plum;
+    transition: all .5s;
+}
+
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
+.w-75{
+    width: 75%;
+}
+.w-100{
+    width: 100%;
+}
+
+.flex-items{
+    display: flex;
+}
+.flex-item{
+
+}
+.text-center{
+    text-align: center;
+}
+
