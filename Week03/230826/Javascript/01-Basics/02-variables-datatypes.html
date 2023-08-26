@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        Değişkenler 3 farklı keyword ile tanımlanırlar:
+        1) var
+        2) const
+        3) let
+    -->
+    <script>
+        // let name = "Tsubasa";
+        // console.log(name);
+        // console.log(typeof (name));
+
+        // let age = 24;
+        // console.log(age, typeof (age));
+
+        // let marriageStatus = true;
+        // console.log(marriageStatus, typeof (marriageStatus));
+
+        // let char = 'a';
+        // console.log(char, typeof (char));
+
+        // let a = 10;
+        // let b = 20;
+        // let c = 30;
+        // let nameLastName = "Tsubasa Ozora";
+        // console.log(a, typeof (a), b, typeof (b), c, typeof (c), nameLastName, typeof (nameLastName));
+
+        // const PI = 3.14;
+        // console.log(PI, typeof (PI));
+
+        // let message = "Merhaba \"JavaScript\"";
+        // console.log(message)
+
+        // let town = "Cihannüma Mah";
+        // let apartment = "Yıldız İş Merkezi";
+        // let description = "Kat:5 D:9";
+        // let region = "Beşiktaş";
+        // let city = "İstanbul";
+        // console.log(town, apartment, description, region, city);
+        // console.log(town + " " + apartment + " " + description + " " + region + " " + city);
+        // console.log(`${town} ${apartment} ${description} ${region} ${city}`);
+
+        // let nameLastName = "Tsubasa Ozora";
+        // let yearOfBirth = "1999";
+        // let gender = "erkek";
+        // console.log(`Merhaba ${nameLastName}. Siz ${yearOfBirth} doğumlu bir ${gender} bireysiniz.`)
+
+        /* Convert Types */
+        // let status=false;
+        // console.log(status, typeof status);
+        // let result= `Durumunuz ${status} şeklindedir.`;
+        // console.log(result);
+
+        // let number = 456;
+        // console.log(number, typeof number);
+
+        // let numberString = String(number);
+        // console.log(numberString, typeof numberString);
+
+        // let stringToNumber = Number(numberString);
+        // console.log(stringToNumber, typeof stringToNumber);
+
+        // let result;
+        // result = Number("158"); //158
+        // result = Number("154n"); //NaN: Not a Number
+        // result = Number("        256    "); //256
+        // result = Number("        256   52 "); //NaN: Not a Number
+        // result = Number(true); //1
+        // result = Number("true"); //NaN: Not a Number
+        // result = Boolean("true"); //True
+        // result = Boolean(1); //True
+        // result = Boolean("1"); //True
+        // result = Boolean(5146); //True
+        // result = Boolean("0"); //True
+        // result = Boolean(" "); //True
+        // result = Boolean(0); //False
+        // result = Boolean(NaN); //False
+        // result = Boolean(""); //False
+        // result = Boolean(null); //False
+        // result = Boolean(Number("0")); //False
+        // console.log(result, typeof result);
+
+        let a;
+        a = '' + 1 + 0; //10 string
+        a = '' - 1 + 0; //-1 number
+        a = 'dkfjls' - 1 + 0; //NaN
+        a = true + false + true; //2 number
+        a = 6 / "3"; //2 number
+        a = 5 + 8 + 'px'; //13 px string
+        a = '$' + 5 + 8; //$58 string
+        a = "4px" - 2; //NaN number
+        a = Number('    9') + 10; //NaN number
+        a = null; //object
+        a = null - 15; //-15 number
+        a = undefined; //undefined
+        a = undefined + 5; //NaN number
+
+        console.log(a, typeof a);
+
+
+
+    </script>
+</body>
+
+{
+
+</html>}
