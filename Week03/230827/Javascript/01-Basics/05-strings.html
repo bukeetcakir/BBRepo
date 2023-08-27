@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+</head>
+
+<body>
+    <script>
+        let course = "Bahçeşehir Üniversitesi Wissen Akademie Full Stack Programlama Eğitimi";
+
+        let result;
+        result = course.toUpperCase();
+        result = course.toLocaleUpperCase();
+
+        // Ödev: Bir metnin içindeki her sözcüğün ilk harfini büyük,geri kalanlarını küçük harfe dönüştüren kodu yazınız
+        // Ör: metin=> wissen aKADemiE --> Wissen Akademie
+
+        result = course.length;
+        result = course[0];
+        result = course[19];
+
+        result = course.slice(0, 5);
+        result = course.slice(24, 30);
+        result = course.slice(24);
+
+        // Ödev: js'teki substring fonksiyonunu araştırıp, slice ile arasındaki farkları bulunuz
+        result = course.replace(" ", "-")
+
+        result = course.trim();
+        result = course.trimStart();
+        result = course.trimEnd();
+
+        result = course.indexOf("b");
+
+        result = course.slice(0, course.indexOf(" "));
+
+        result = course.split(" ");
+
+        result = course.startsWith("B");
+        result = course.startsWith("A");
+
+        result = course.endsWith("i");
+
+        result = course.includes("Bahçeşehir");
+
+        //Bir değişkenin içinde yer alan metnin toplam kaç kelimeden oluştuğunu bulup konsola yazdıran kodu yazınız
+
+        let sentence = prompt("Lütfen bir cümle giriniz");
+        let arraySentence = sentence.split(" ");
+        result = arraySentence.length;
+
+        console.log(result);
+
+    </script>
+</body>
+
+</html>

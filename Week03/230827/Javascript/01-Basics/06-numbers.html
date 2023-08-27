@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers</title>
+</head>
+
+<body>
+    <script>
+        let result;
+        result = Number('10.5');
+        result = parseInt('10.8');
+        result = parseFloat('10.8');
+        result = parseInt('10a1'); //10 number
+        result = parseInt('a258'); //NaN number
+
+        let number = 151.47857865;
+        result=number.toFixed(1);
+        result=number.toPrecision(5);
+
+        result=Math.round(number);
+        result=Math.ceil(number);
+        result=Math.floor(number);
+
+        result=Math.pow(3,2);
+        result=Math.pow(2,7);
+
+        result=Math.abs(-25);
+
+        console.log(result, typeof result);
+    </script>
+</body>
+
+</html>

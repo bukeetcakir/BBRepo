@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let result;
+
+        let now = new Date();
+        result = now;
+        result = now.getDate();
+        result = now.getDay();
+        result = now.getMonth();
+        result = now.getFullYear();
+        result = now.getHours();
+
+        let birthDate = new Date(1999, 0, 10);
+        result = birthDate;
+        result = birthDate.getMonth();
+        result = birthDate.setFullYear(2023); //Her tarihin sayısal bir karşılığı vardır biz nasıl istiyorsak o biçimde gösterebileceğiz.
+        let gapMs = now - birthDate;
+        let gapSecond = gapMs / 1000;
+        let gapMinute = gapSecond / 60;
+        let gapHour = gapMinute / 60;
+        let gapDay = gapHour / 24;
+        let gapMonth = gapDay/30;
+        let gapYear = gapMonth/12;
+
+        console.log(gapYear);
+    </script>
+</body>
+
+</html>
