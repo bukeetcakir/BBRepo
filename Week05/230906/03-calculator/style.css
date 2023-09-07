@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+.calculator {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 400px;
+    /* height: 400px; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculator-input{
+    background-color: black;
+    color: wheat;
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+    font-size: 4rem;
+    text-align: end;
+    padding-right: 12px;
+}
+
+.calculator-keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); /*fr:Fraction*/
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+button{
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+
+.operator{
+    color:#336cac
+}
