@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <a id="link" href="https://jquery.com/">Go to jQuery</a>
+    <br><br>
+    <button onclick="changeLink()"> Change Link</button>
+    
+
+    <script>
+        function changeLink(){
+            $("#link").attr("href","https://react.dev/");
+            $("#link").text("Go to React");
+            $("#link").css("font-size","30px");
+            $("#link").css("color","#CCCAAA");
+        }
+    </script>
+</body>
+</html>

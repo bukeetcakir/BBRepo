@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+
+    </div>
+    <button id="btn-hide" onclick="hideBox()">Gizle</button>
+    <button id="btn-show" onclick="showBox()">Göster</button>
+
+
+    <script>
+        $("#btn-show").css("visibilty","hidden");
+        function hideBox() {
+            // $("#box").css("display", "none");
+            $("#box").css("visibility", "hidden");
+            $("#btn-hide").css("visibility", "hidden");
+            $("#btn-hide").css("visibility", "visible");
+        }
+        function showBox(){
+            // $("box").css("display", "block");
+            $("#box").css("visibility","visible");
+            $("#btn-show").css("visibility","hidden");
+            $("#btn-hide").css("visibility","visible");
+            
+        }
+    </script>
+</body>
+
+</html>

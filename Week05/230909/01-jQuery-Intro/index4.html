@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <p id="test">TEST</p>
+    <button id="btn-change-text">Metin Değiştir</button>
+    <br>
+    <button id="btn-change-color">Renk Değiştir</button>
+
+    <script>
+        //Sayfadaki tüm içerik yüklendikten sonra çalışması istenen kodlar için;
+        //PURE JAVASCRİPT
+        // document.addEventListener("DOMContentLoad",function(){
+        //     // Tüm kodlar buraya yazılır
+        // })
+
+        //JQUERY
+        $(document).ready(function () {
+            // Tüm kodlar buraya yazılır
+            $("#btn-change-text").click(function () {
+                $("#test").text("Hello World!");
+            }
+            )
+
+            $("#btn-change-color").click(function () {
+                $("#test").css("background-color", "#CCCAAA");
+            })
+        })
+    </script>
+</body>
+
+</html>

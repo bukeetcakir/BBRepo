@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .box{
+            margin-top: 20px;
+        }
+        li{
+            list-style-type: none;
+        }
+        li:hover{
+            cursor: pointer;
+            color: blue;
+        }
+        #btn-show-courses{
+            width: 100px;
+            border: 0;
+            padding: 5px;
+            background-color: blue;
+            color: white;
+        }
+        .box1{
+            background-color: brown;
+            color: wheat;
+            padding: 20px;
+            width: 600px;
+            margin: 20 auto;
+        }
+        .box2{
+            background-color: wheat;
+            color: brown;
+            padding: 20px;
+            width: 600px;
+            margin: 20 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn-slide-up">Slide Up</button>
+    <button id="btn-slide-down">Slide Down</button>
+    <button id="btn-slide-toggle">Slide Toggle</button>
+
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, est, blanditiis ab facilis aliquid eum, distinctio architecto voluptatibus deserunt natus fuga. In molestiae, error, fugit accusamus maxime consequuntur velit, excepturi maiores quas sequi dolores iusto. Nulla aliquam tempora amet et. Illo praesentium consequuntur optio sit repudiandae, quos blanditiis, dolorum dignissimos assumenda earum facere est voluptatibus aperiam perferendis aliquam nesciunt tempore? Facilis hic neque modi nisi. Eos accusamus sint asperiores ratione in voluptas error voluptate aperiam. Debitis velit facere eius tenetur quidem, numquam a odit culpa nisi earum provident ipsam corporis, ut nobis totam dolore ex quasi unde! Fugiat quasi quisquam dolor alias voluptatum, ipsam blanditiis, ipsa necessitatibus porro commodi sunt repellendus illum deserunt dolorem in inventore molestias aperiam at distinctio. Harum exercitationem cupiditate voluptates ea saepe odit architecto est ducimus soluta deserunt vitae, quasi inventore, repellat quas ipsa sequi provident sit aliquam amet animi sapiente! Nisi, consequuntur odio maiores dicta iusto, inventore error fugit, officiis sed asperiores culpa maxime? </p>
+    </div>
+
+    <button id="btn-show-courses">Kurslar</button>
+    <div class="courses" style="display: none;">
+        <ul>
+            <li>C#</li>
+            <li>C</li>
+            <li>Java</li>
+        </ul>
+    </div>
+
+    <div id="description" class="box1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestiae fuga optio dolorem tempora veritatis sed. Fugit et molestias vitae pariatur possimus iure tenetur laboriosam corrupti rem? Eaque, recusandae voluptatibus.</p>
+    </div>
+    <button id="change-box">Değiştir</button>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
