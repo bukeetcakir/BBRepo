@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Wissen Blog Contact</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <div class="navbar bg-dark navbar-expand-lg bg-menu fixed-top">
+            <div class="container">
+                <a href="/" class="navbar-brand"><i class="fa-solid fa-house text-white"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blogs.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-warning" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 pt-3">
+            <h1 class="fs-4">Contact Us</h1>
+            <div class="row g-2">
+                <div class="col-lg-6 col-12  mb-3">
+                    <form class="bg-menu p-3 rounded-2 text-white">
+                        <div class="row g-3">
+                            <div class="col-sm-6 col-12">
+                                <label class="form-label">E-mail:</label>
+                                <input class="form-control" type="email">
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <label class="form-label">Name:</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <label class="form-label">Phone:</label>
+                                <input class="form-control" type="tel">
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <label class="form-label">Subject:</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Message:</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input type="submit" class="btn btn-outline-warning w-100" value="Send Message" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <iframe
+                    class="rounded-2 border p-1 w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.138483078676!2d29.0068164!3d41.04410059999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7a24975fe5d%3A0xa05d7aa13cfcaf89!2sBah%C3%A7e%C5%9Fehir%20%C3%9Cniversitesi%20Wissen%20Akademie!5e0!3m2!1str!2str!4v1694344862476!5m2!1str!2str"
+                        height="375" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="bg-menu py-3 fixed-bottom">
+        <div class="container text-white text-center">
+            <span>
+                BAU Bright 2303-07 Grubu Tarafından hazırlanmıştır. &copy; 2023
+            </span>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

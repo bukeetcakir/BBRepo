@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+.my-text1 {
+    color: #085E7D !important;
+}
+
+.bg-menu {
+    background-color: #085E7D !important;
+}
+
+.bg-menu #menu a {
+    color: white !important;
+    opacity: .7;
+}
+
+.bg-menu #menu a:hover {
+    opacity: .9;
+}
+
+.bg-menu #menu a.active {
+    opacity: 1;
+}
+
+.card-img-top-my {
+    height: 40vh;
+    /* object-fit: cover;
+    object-position: top center; */
+}

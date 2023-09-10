@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Wissen Blog Home</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid p-0" style="height: 90vh;">
+        <!-- NAVBAR -->
+        <div class="navbar bg-dark navbar-expand-lg bg-menu fixed-top">
+            <div class="container">
+                <a href="/" class="navbar-brand"><i class="fa-solid fa-house text-white"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blogs.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-warning" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- HEADER -->
+        <div class="h-100 d-flex flex-column justify-content-between text-center border-bottom w-50 m-auto mt-5">
+            <h1 class="display-4 pt-5">Wissen Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam rem minus atque commodi eum natus
+                porro numquam doloribus, perspiciatis at placeat asperiores tempore alias pariatur facere, iusto quae
+                ratione culpa? Dolor quibusdam minima asperiores, nemo cum esse facilis, iure modi ea quae laborum
+                quisquam numquam est quos saepe ipsum optio!</p>
+            <div>
+                <button class="btn btn-primary btn-lg">
+                    <i class="fa-solid fa-angles-right"></i> Details
+                </button>
+                <button class="btn btn-success btn-lg">
+                    <i class="fa-solid fa-angles-right"></i> Info
+                </button>
+            </div>
+            <div class="overflow-hidden mt-5" style="height: 30vh;">
+                <img src="images/bg2.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <!-- ADVERT -->
+        <div class="bg-menu text-white text-center py-5">
+            <div class="w-50 m-auto mb-5">
+                <h1 class="display-4 pt-5 fw-normal">LOREM IPSUM</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam rem minus atque commodi eum natus
+                    porro
+                    numquam doloribus, perspiciatis at placeat asperiores tempore alias pariatur facere, iusto quae
+                    ratione
+                    culpa?
+                    Dolor quibusdam minima asperiores, nemo cum esse facilis, iure modi ea quae laborum quisquam numquam
+                    est
+                    quos
+                    saepe ipsum optio!</p>
+                <div>
+                    <button class="btn btn-outline-warning btn-lg">
+                        <i class="fa-solid fa-angles-right"></i> Details
+                    </button>
+                    <button class="btn btn-outline-light btn-lg">
+                        <i class="fa-solid fa-angles-right"></i> Info
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- LAST BLOGS -->
+        <div class="container my-4">
+            <h1 class="text-center pb-3 my-text1">Last Blogs</h1>
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-md-1 row-cols-1 g-3">
+                <div class="col">
+                    <div class="card">
+                        <img src="/images/1.jpeg" class="card-img-top card-img-top-my" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Title 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the<span>...</span>
+                                <a href="#" class="btn btn-link pt-0 ps-1">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/images/2.jpeg" class="card-img-top card-img-top-my" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Title 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the<span>...</span>
+                                <a href="#" class="btn btn-link pt-0 ps-1">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/images/3.jpeg" class="card-img-top card-img-top-my" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Title 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the<span>...</span>
+                                <a href="#" class="btn btn-link pt-0 ps-1">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/images/4.jpeg" class="card-img-top card-img-top-my" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Title 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the<span>...</span>
+                                <a href="#" class="btn btn-link pt-0 ps-1">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/images/5.jpeg" class="card-img-top card-img-top-my" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Title 5</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the<span>...</span>
+                                <a href="#" class="btn btn-link pt-0 ps-1">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/images/6.jpeg" class="card-img-top card-img-top-my" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Title 6</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the<span>...</span>
+                                <a href="#" class="btn btn-link pt-0 ps-1">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="bg-menu py-3 fixed-bottom">
+            <div class="container text-white text-center">
+                <span>
+                    BAU Bright 2303-07 Grubu Tarafından hazırlanmıştır. &copy; 2023
+                </span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
