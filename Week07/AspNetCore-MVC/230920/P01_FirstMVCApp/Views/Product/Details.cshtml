@@ -1,0 +1,12 @@
+@model Product
+
+@{
+    ViewData["Title"] = "Details";
+    Product product = Model;
+    @* Layout = ""; *@
+}
+
+<h1>Product Details</h1>
+<p>ID: @product.Id</p>
+<p>ID: @product.Name</p>
+<p>ID: @product.Price</p>
