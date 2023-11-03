@@ -1,0 +1,34 @@
+﻿@model List<ProductViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        @await Component.InvokeAsync("Categories")
+    </div>
+    <div class="col-md-9">
+        <div class="row g-3">
+            @foreach (var product in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img p-2 text-center">
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="img-fluid" />
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@product.Name</h5>
+                            <small class="text-muted">@product.Price TL</small>
+                            <div class="card-footer bg-white d-flex justify-content-around pb-0 pt-3 mt-2">
+                                <a href="/" class="btn btn-primary">Detay</a>
+                                <form method="post">
+                                    <button type="submit" class="btn btn-success">Sepete Ekle</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

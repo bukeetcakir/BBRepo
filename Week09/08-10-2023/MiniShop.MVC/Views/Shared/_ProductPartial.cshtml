@@ -1,0 +1,16 @@
+@model ProductViewModel
+<div class="card">
+    <div class="card-img p-2 text-center">
+        <img src="https://picsum.photos/seed/picsum/200/300" class="img-fluid" />
+    </div>
+    <div class="card-body text-center">
+        <h5 class="card-title text-success">@Model.Name</h5>
+        <small class="text-muted">@Model.Price TL</small>
+        <div class="card-footer bg-white d-flex justify-content-around pb-0 pt-3 mt-2">
+            <a href="/" class="btn btn-primary">Detay</a>
+            <form method="post">
+                <button type="submit" class="btn btn-success">Sepete Ekle</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+@model ProductsCategoriesViewModel
+@{
+    ViewData["Title"] = "Index";
+    string active = ViewData["SelectedCategoryId"] == null ? "active" : "";
+}
+<div class="list-group list-group-horizontal-md">
+    <a class="list-group-item list-group-item-action @active" asp-area="" asp-controller="Category" asp-action="Index"
+        asp-route-id="">Tümünü Göster</a>
+    @foreach (var category in Model.Categories)
+    {
+        active = Convert.ToInt32(ViewData["SelectedCategoryId"]) == category.Id ? "active" : "";
+        <a class="list-group-item list-group-item-action @active" asp-area="" asp-controller="Category" asp-action="Index"
+            asp-route-id="@category.Id">@category.Name</a>
+    }
+</div>
+
+<div class="row g-3 mt-3">
+    @foreach (var product in Model.Products)
+    {
+        <div class="col-md-3">
+            @await Html.PartialAsync("_ProductPartial", product)
+        </div>
+    }
+</div>

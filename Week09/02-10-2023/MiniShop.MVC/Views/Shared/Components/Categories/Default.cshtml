@@ -1,0 +1,12 @@
+﻿@model List<CategoryViewModel>
+@{
+    string active = ViewBag.SelectedCategoryId == null ? "active" : "";
+}
+<div class="list-group">
+    <a href="/" class="list-group-item list-group-item-action @active ">Tümünü Göster</a>
+    @foreach (var category in Model)
+    {
+        active = ViewBag.SelectedCategoryId == category.Id.ToString() ? "active" : "";
+        <a href="/" class="list-group-item list-group-item-action @active ">@category.Name</a>
+    }
+</div>
